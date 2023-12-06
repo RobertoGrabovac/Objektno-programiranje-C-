@@ -66,9 +66,9 @@ class MyCl{
     int         number;
 public:
     std::string       & getName() { return name; }
-    std::string const & getName() { return name; }
+    std::string       & getName() const { return name; }
     int       & getNumber() { return number; }
-    int const & getNumber() { return number; }
+    int       & getNumber() const { return number; }
 
    // ....
 };
