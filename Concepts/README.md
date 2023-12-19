@@ -1,6 +1,6 @@
 **Zadatak**. Cilj ovog zadatka je pisanje koncepata (uvedenih u standardu C++20):
 
-- koncept `FPCont` koji ispituje da li tip `T` ima metode `begin()` i `end()` i da li se povratna vrijednost od `begin()` dade dereferncirati u nešto konvertibilno u tip `double`.
+- koncept `FPCont` koji ispituje da li tip `T` ima metode `begin()` i `end()` i da li se povratna vrijednost od `begin()` može dereferncirati u nešto konvertibilno u tip `double`.
 
 - koncept `Same<T,S>` koji je istina ako su tipovi `T` i `S` jednaki nakon zanemarivanja dekoracija `const` i `volatile`.
 
